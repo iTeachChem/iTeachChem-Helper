@@ -7,6 +7,13 @@
 **iTeachChem Helper** is a discord bot that manages the Doubt forums in [iTeachChem](https://discord.gg/9m3EvgnxKK) Server. Bot is hosted on [Zerops](https://zerops.io)
 > The source code here is only for educational purposes.
 
+<a href="https://zerops.io">
+    <img src="assets/zerops.png" width="80" height="80" alt="Zerops">
+</a>
+<a href="https://discordpy.readthedocs.io/en/stable/">
+ <img src="assets/dpy.png" width="80" height="80" alt="Discord.py">
+</a>
+
 ## Features
 iTeachChem Helper provides a lot of features to help in Forum channels such as:
 
