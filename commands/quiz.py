@@ -327,48 +327,6 @@ class Ques(commands.Cog):
                 return excel_file
             else:
                 return None
-
-    @ques.command(name="stop")
-    @commands.has_permissions(manage_guild=True)
-    async def stop(self, ctx):
-        try:
-            for view in Start_Buttons.active_views2:
-                for item in view.children:
-                    item.disabled = True
-                    item.label = "Disabled"
-                    try:
-                        await view.dm_message.edit(view=view)
-                    except discord.NotFound:
-                        continue
-                await asyncio.sleep(1)
-                
-            # for view in DM_Buttons.active_views:
-            #     if view.next_message is not None:
-            #         for item in view.children:
-            #             item.disabled = True
-            #             item.label = "Disabled"
-            #         try:
-            #             await view.next_message.edit(view=view)
-            #         except discord.NotFound:
-            #             print(f"")
-            #     else:
-            #         print("Dm_message is None, skipping edit.")
-            #    await asyncio.sleep(1)
-
-            for view in DM_Submit_Buttons.active_views1:
-                for item in view.children:
-                    item.disabled = True
-                    item.label = "Disabled"
-                    try:
-                        await view.message.edit(view=view)
-                    except discord.NotFound:
-                        continue
-                await asyncio.sleep(1)
-
-            await ctx.send("All attempt buttons have been disabled.")
-
-        except discord.NotFound:
-            await ctx.send("Error: Could not disable buttons because the message was not found.")
        
 def time_calculate_convert(time_taken: float) -> str:
     try:
