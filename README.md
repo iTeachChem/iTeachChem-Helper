@@ -1,11 +1,11 @@
 # iTeachChem Helper
-
-<div style="text-align: center;">
-    <img src="assets/iTeachChem_Helper.png" alt="iTeachChem-Helper" width="600"/>
-</div>
-
 **iTeachChem Helper** is a discord bot that manages the Doubt forums in [iTeachChem](https://discord.gg/9m3EvgnxKK) Server. Bot is hosted on [Zerops](https://zerops.io)
 > The source code here is only for educational purposes.
+
+### Self Hosting this on Zerops
+1. Go to [Zerops](https://zerops.io) and sign up
+2. Go to [Zerops Dashboard](https://app.zerops.io/dashboard/projects) and navigate to import project button.
+3. Paste the import project yaml and then go to the service and setup envs.
 
 <a href="https://zerops.io">
     <img src="assets/zerops.png" height="80" alt="Zerops">
@@ -15,6 +15,9 @@
 </a>
 
 ## Features
+<div style="text-align: center;">
+    <img src="assets/iTeachChem_Helper.png" alt="iTeachChem-Helper" width="400"/>
+</div>
 iTeachChem Helper provides a lot of features to help in Forum channels such as:
 
 ```
