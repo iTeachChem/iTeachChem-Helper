@@ -8,10 +8,10 @@
 > The source code here is only for educational purposes.
 
 <a href="https://zerops.io">
-    <img src="assets/zerops.png" width="80" height="80" alt="Zerops">
+    <img src="assets/zerops.png" height="80" alt="Zerops">
 </a>
 <a href="https://discordpy.readthedocs.io/en/stable/">
- <img src="assets/dpy.png" width="80" height="80" alt="Discord.py">
+ <img src="assets/dpy.png" height="80" alt="Discord.py">
 </a>
 
 ## Features
