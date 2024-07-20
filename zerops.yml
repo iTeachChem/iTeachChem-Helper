@@ -1,0 +1,12 @@
+zerops:
+  - setup: chemdiscordbot
+    build:
+      base: python@3.12
+      deployFiles: /~
+      addToRunPrepare:
+        - requirements.txt
+    run:
+      base: python@3.12
+      prepareCommands:
+        - python3 -m pip install --ignore-installed -r requirements.txt
+      start: python3 bot.py
